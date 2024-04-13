@@ -8,7 +8,7 @@
 <div align='center'>
     <h1>Reach Out!</h1>
     <a href='mailto:marritaylor00@gmail.com'><img src='https://imgur.com/fzkLuiL.png' alt='Gmail'/></a>
-    <a href='www.linkedin.com/in/maxwell-silver-4a023b2a1'><img src='https://imgur.com/XtkAof8.png' alt='Linkedin'/></a>
+    <a href='https://www.linkedin.com/in/maxwell-silver-4a023b2a1'><img src='https://imgur.com/XtkAof8.png' alt='Linkedin'/></a>
     <a href='https://discord.com/users/marri951'><img src='https://imgur.com/ItEzY1f.png' alt='Discord'</a>
     <a href='https://marri.life/'><img src='https://imgur.com/9Uyyzfx.png' alt='My Website'/></a>
 </div>
