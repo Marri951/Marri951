@@ -1,0 +1,250 @@
+<svg fill="none" viewBox="0 0 600 700" width="600" height="700" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+            @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+            @keyframes gradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+            }
+            @keyframes rainbow {
+                0%{background-position: 0% 0%;}
+                100%{background-position: 10000% 0%;}
+            }
+            #full {
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                color: rgb(64, 64, 64);
+            }
+            p {
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 600;
+                font-style: normal;
+                font-size: 12pt;
+            }
+            .nunito-semibold {
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 20px;
+                margin: 15px;
+            }
+            .nunito-bold {
+                font-family: "Nunito", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 1000;
+                font-style: normal;
+            }
+            .container img {
+                height: 100px;
+                margin:15px;
+                margin-bottom: 5px;
+                border-radius: 15px;
+            }
+            .container h1 {
+                min-width: fit-content;
+                margin: 15px;
+                margin-bottom: 5px;
+                display: block;
+            }
+            .container-border {
+                --color-main: #5452ee;
+                --color-primary: #e73c7e;
+                --color-secondary: #23a6d5;
+                --color-tertiary: #ffff;
+                background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
+                animation: gradient 10s ease infinite;
+                background-size: 400% 400%;
+                width: 80%;
+                height: 245px;
+                margin: 0px auto;
+                margin-bottom: 5px;
+                padding: 5px;
+                border-radius: 30px;
+            }
+            .container {
+                background: #c9d8cb;
+                padding: 5px;
+                padding-top: 15px;
+                width: 470px;
+                height: 225px;
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+                border-radius: 27px;
+            }
+            .rainbow-divider {
+                background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, indigo, blue, green, yellow, orange, red);
+                animation: rainbow 1000s linear infinite;
+                height: 3px;
+                width: 150px;
+                background-size: 500%;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px;
+            }
+            #info {
+                display: flex;
+                flex-flow: row nowrap;
+                width: 480px;
+                margin: 0px auto;
+                padding: 0px;
+            }
+            .info-subsection {
+                flex: 10 1 40%;
+                margin: 0px;
+                height: 250px;
+                border-radius: 15px;
+                padding: 5px;
+                text-align: center;
+                background-color: #c9d8cb;
+            }
+            #socials {
+                width: 470px;
+                margin: 0px auto;
+                height: 100px;
+                border-radius: 15px;
+                padding: 5px;
+                text-align: center;
+                background-color: #c9d8cb;
+            }
+            #eevee {
+                width: 110px;
+                position: absolute;
+                bottom: 25px;
+                left: 60px
+            }
+            td img {
+                height: 45px;
+                margin: auto;
+            }
+            table#first {
+                margin-bottom: 30px;
+            }
+            table {
+                margin: 5px auto;
+            }
+            img#vim {
+                height: 40px
+            }
+            .border {
+                --color-main: #5452ee;
+                --color-primary: #e73c7e;
+                --color-secondary: #23a6d5;
+                --color-tertiary: #ffff;
+                background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
+                animation: gradient 10s ease infinite;
+                background-size: 400% 400%;
+                padding: 5px;
+                border-radius: 18px;
+                flex: 1 0 40%;
+                margin: 10px
+            }
+            #left {margin-left: -5px;}
+            #right {margin-right: -5px;}
+            #sprigatito {
+                position: absolute;
+                right: 55px;
+                bottom: 10px;
+                width: 150px;
+            }
+            #socials div, #patch3 {
+                width:15px;
+                height: 10px;
+                position: absolute;
+                background-color: #c9d8cb;
+                z-index: 10;
+            }
+            #socials h1 {margin-right: 50px;}
+            #patch1 {bottom:48px;right:62px;}
+            #socials #patch2 {bottom:115px;right:155px;height:12px;}
+            #patch3 {bottom: 176px;left: 190px;width:30px;}
+            div p {margin-bottom: 21px;}
+            p#line1 {margin-top: 25px}
+            #socials h1{margin-top: 14px;}
+            @media (prefers-color-scheme: light) {
+                .container {
+                    --color-main: #F15BB5;
+                    --color-primary: #24b0ef;
+                    --color-secondary: #4526f6;
+                    --color-tertiary: #f6f645;
+                }
+            }
+        </style>
+        <div id = 'full'>
+            <div class = 'container-border'>
+                <div class="container">
+                    <h1 class = 'nunito-bold'>Hi all, I'm Marri!<h1>
+                    <h1 class = 'nunito-bold'>^>^ Pleasure to meet you! ^>^<h1>
+                    <img src = 'https://media1.tenor.com/m/Yk5VLCkqfwYAAAAC/chomp-bite-arm.gif' alt = 'hi!'/>
+                </div>
+            </div>
+            <div id = 'info'>
+                <div id = 'left' class = 'border'>
+                    <div class = 'info-subsection'>
+                        <h3 class = 'nunito-semibold'>About Me</h3>
+                        <div class = 'rainbow-divider'></div>
+                        <p>Heyo (◐ω◑)</p>
+                        <p>I'm big computer nerd.</p>
+                        <p>I'm mostly self taught,</p>
+                        <p>but I'm starting college</p>
+                        <p>computer engineering</p>
+                        <p>I currently I have my</p>
+                        <p>Network+ and Security+</p>
+                        <p>certifications (˃ᆺ˂✿)</p>
+                        <p>Feel free to DM me on</p>
+                        <p>Discord: ----</p>
+                        <div id = 'patch3'></div>
+                    </div>
+                </div>
+                <div class = 'border' id = 'right'>
+                    <div class = 'info-subsection'>
+                        <h3 class = 'nunito-semibold'>Current Stack</h3>
+                        <div class = 'rainbow-divider'></div>
+                        <table id = 'first'>
+                            <tbody>
+                                <tr>
+                                    <td><img src = 'https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/programming%20languages/python.svg' alt = 'Python' /></td>
+                                    <td><img src = 'https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/html5.svg' alt = 'HTML' /></td>
+                                    <td><img src = 'https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/1ac69ce5fbc389725f16f989fa53c62d6e1b4883/social%20icons/css3.svg' alt = 'CSS' /></td>
+                                </tr>
+                                <tr>
+                                    <td><img src = 'https://cdn.iconscout.com/icon/free/png-512/free-powershell-3521649-2945093.png?f=webp&w=256' alt = 'PowerShell' /></td>
+                                    <td><img src = 'https://cdn.iconscout.com/icon/free/png-512/free-markdown-486861-2364930.png?f=webp&w=256' alt = 'MarkDown' /></td>
+                                    <td><img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/SVG_Logo.svg/1024px-SVG_Logo.svg.png' alt = 'SVG' /></td>
+                                </tr> 
+                            </tbody>
+                        </table>
+                        <h3 class = 'nunito-semibold'>Fav. Editors</h3>
+                        <div class = 'rainbow-divider'></div>
+                        <table id = 'second'>
+                            <tbody>
+                                <tr>
+                                    <td><img src = 'https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/62487087dc4f4f5efee637addbc67a16dd374bf6/text%20editors/vscode.svg' alt = 'VS_Code' /></td>
+                                    <td><img id = 'vim' src = 'https://cdn.iconscout.com/icon/free/png-512/free-vim-3-1175075.png?f=webp&w=256' alt = 'VIM' /></td>
+                                    <td><img src = 'https://raw.githubusercontent.com/bablubambal/All_logo_and_pictures/62487087dc4f4f5efee637addbc67a16dd374bf6/text%20editors/notepad%2B%2B.png' alt = 'NotePad++' /></td>
+                                </tr> 
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class = 'border'>
+                <div id = 'socials'>
+                    <h1 class = 'nunito-bold'>Spare a doubloon?<h1>
+                    <p id = 'line1'>I'd appreciate if you could help</p>
+                    <p>with my college debts</p>
+                    <img id  = 'eevee' src = "https://i.imgur.com/EGhMjhn.png" alt = ''>
+                    <div id = 'patch1'></div>
+                    <div id = 'patch2'></div>
+                    <img id = 'sprigatito' src = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3MyYm10aDZzcW9tZzhpaWpwbmd1ejRqOXBiZzQ1YXdzZHh6NHdvNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/GbQfKIMdfaDb5Jmzog/giphy.gif" alt = ''>
+                </div>
+            </div>
+        </div>
+    </foreignObject>
+</svg>
