@@ -16,7 +16,7 @@
 <table>
   <tr>
     <td align="center"><h1 class='nunito-bold'>Spare a doubloon?</h1>
-    <h3>I'd mean the world to me if you could help with my college debts</h3></td>
+    <h3>It'd mean the world to me if you could help with my college debts</h3></td>
     <td align="center" rowspan="2"><img id='sprigatito' src="https://imgur.com/ot5wGna.gif" alt=''/></td>
   </tr>
   <tr>
